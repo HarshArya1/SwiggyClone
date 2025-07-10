@@ -1,7 +1,7 @@
 # Dependency and build folders
 node_modules/
 .parcel-cache/
-dist/   # optional if Vercel builds for you
+
 
 # Temp/test files
 tester.html
