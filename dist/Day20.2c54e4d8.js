@@ -41273,6 +41273,6 @@ $RefreshReg$(_c, "CartPage");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router":"2jawN","../../Stored/CartSlicer":"aL7Wo","react-redux":"hbNxT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["frqA7","hh6uc"], "hh6uc", "parcelRequired458", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react-router":"2jawN","../../Stored/CartSlicer":"aL7Wo","react-redux":"hbNxT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["frqA7","hh6uc"], "hh6uc", "parcelRequirece0d", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Day20.2c54e4d8.js.map

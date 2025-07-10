@@ -1,25 +1,32 @@
 {
-  "name": "day20",
+  "name": "swiggy-clone",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
-  "description": "",
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@tailwindcss/postcss": "^4.1.10",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "parcel": "^2.15.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-redux": "^9.2.0",
-    "react-router": "^7.6.3",
+    "react-router-dom": "^7.6.3",
     "tailwindcss": "^4.1.10"
   },
   "devDependencies": {
-    "parcel": "^2.15.4"
-  }
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions"
+  ]
 }
