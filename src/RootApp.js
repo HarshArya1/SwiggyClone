@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { fetchRestaurants } from "../Stored/restaurantSlice";
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Updated import
 import Home from "./Components/Home";
 import Restaurant from "./Components/Restaurant";
 import RestaurantMenu from "./Components/RestaurantMenu";
@@ -16,14 +16,13 @@ export default function RootApp() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-  if (store.getState().restaurants.list.length === 0) {
-    dispatch(fetchRestaurants());
-  }
-}, [dispatch]);
-
+    if (store.getState().restaurants.list.length === 0) {
+      dispatch(fetchRestaurants());
+    }
+  }, [dispatch]);
 
   return (
-    <BrowserRouter>
+    <Router> {/* Changed from BrowserRouter to Router (which is now HashRouter) */}
       <Routes>
         <Route element={<Footer />}>
           <Route path="/" element={<Home />} />
@@ -35,6 +34,6 @@ export default function RootApp() {
         <Route path="/city/delhi/:id/search" element={<SearchFood />} />
         <Route path="/checkout" element={<CheckOut />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
