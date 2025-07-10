@@ -45,7 +45,7 @@ export default function RestInfo({ restData }) {
               ({restData?.ratings?.aggregatedRating?.ratingCountV2 ?? "N/A"})
             </span>
           </div>
-          <p className="text-gray-600 w-[94%] mt-1">
+          <p className="text-gray-600 max-w-[84%] mt-1">
             {restData?.description?.split(" ").length > 30
               ? restData.description.split(" ").slice(0, 30).join(" ") + "..."
               : restData?.description}
