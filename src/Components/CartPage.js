@@ -35,7 +35,7 @@ export default function CartPage({ data }) {
     <div>
       <div className="bg-white w-full py-3 px-10 items-center flex justify-between">
         <div className="flex">
-        <Link to={"/"}><img className="w-15 h-15 object-cover rounded-xl hover:scale-105 transition-all duration-200" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png"></img></Link>
+        <Link to={"/restaurant"}><img className="w-15 h-15 object-cover rounded-xl hover:scale-105 transition-all duration-200" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png"></img></Link>
         <p className="ml-10 text-center mt-3 text-[20px] font-semibold text-gray-800">Checkout</p>
         </div>
         <div className="flex gap-10 mr-10"><a href="https://www.swiggy.com/offers-near-me" target="_blank">

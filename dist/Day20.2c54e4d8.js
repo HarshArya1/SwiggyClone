@@ -40848,14 +40848,14 @@ function CartPage({ data }) {
                         className: "flex",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                                to: "/",
+                                to: "/restaurant",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                     className: "w-15 h-15 object-cover rounded-xl hover:scale-105 transition-all duration-200",
                                     src: "https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png"
                                 }, void 0, false, {
                                     fileName: "src/Components/CartPage.js",
                                     lineNumber: 38,
-                                    columnNumber: 24
+                                    columnNumber: 34
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/Components/CartPage.js",
