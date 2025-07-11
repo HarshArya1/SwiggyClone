@@ -14,10 +14,11 @@
   "author": "",
   "type": "commonjs",
   "scripts": {
-    "build": "parcel build index.html --dist-dir dist",
-    "start": "parcel index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "build": "parcel build index.html --dist-dir dist",
+  "start": "parcel index.html",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "devDependencies": {
     "parcel": "^2.15.4"
   },
